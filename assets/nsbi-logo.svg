@@ -1,0 +1,45 @@
+<svg width="420" height="130" viewBox="0 0 420 130" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Logo NSBI">
+  <defs>
+    <style>
+      .blue { fill: #143f71; }
+      .green { fill: #6aaa4a; }
+      .line { stroke: #c9d0d8; stroke-width: 2; }
+      .spark { fill: #6aaa4a; }
+      .spark2 { fill: #143f71; }
+    </style>
+  </defs>
+  <rect width="420" height="130" fill="white"/>
+
+  <text x="18" y="85" font-family="Poppins, Arial, sans-serif" font-size="80" font-weight="800" class="blue">NS</text>
+  <text x="165" y="85" font-family="Poppins, Arial, sans-serif" font-size="80" font-weight="800" class="green">BI</text>
+
+  <g transform="translate(250,25)">
+    <rect x="0" y="38" width="70" height="45" class="blue" rx="2"/>
+    <rect x="5" y="18" width="8" height="20" class="blue"/>
+    <rect x="18" y="12" width="8" height="26" class="blue"/>
+    <rect x="31" y="8" width="8" height="30" class="blue"/>
+    <rect x="44" y="15" width="8" height="23" class="blue"/>
+    <rect x="9" y="45" width="8" height="8" fill="white"/>
+    <rect x="21" y="45" width="8" height="8" fill="white"/>
+    <rect x="33" y="45" width="8" height="8" fill="white"/>
+  </g>
+
+  <g transform="translate(323,37)">
+    <path d="M28 58H6c0-18 2-40 11-40s11 22 11 40z" class="green"/>
+    <rect x="13" y="7" width="8" height="10" class="green" rx="2"/>
+    <rect x="10" y="3" width="14" height="4" class="green" rx="2"/>
+  </g>
+
+  <g transform="translate(352,20)">
+    <path d="M6 22h44l-2 6H8z" class="blue"/>
+    <path d="M10 15h40l-1.5 5H11.5z" class="blue"/>
+    <path d="M8 80c0-26 8-50 22-50s22 24 22 50" fill="none" stroke="#143f71" stroke-width="6"/>
+    <path d="M17 66h10l-2 13h-8z" class="blue"/>
+    <path d="M35 66h10l-2 13h-8z" class="blue"/>
+  </g>
+
+  <polygon points="286,21 289,29 297,32 289,35 286,43 283,35 275,32 283,29" class="spark"/>
+  <polygon points="302,10 305,16 311,19 305,22 302,28 299,22 293,19 299,16" class="spark2"/>
+
+  <line x1="12" y1="108" x2="408" y2="108" class="line"/>
+</svg>
